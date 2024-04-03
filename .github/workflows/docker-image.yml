@@ -28,7 +28,7 @@ jobs:
       - name: Build Docker image
         run: | 
            docker build -t hectormarroquin/graphql-actions:0.0.2 .
-           docker build -t hectormarroquin/graphql-actions:latest
+           docker build -t hectormarroquin/graphql-actions:latest .
            
       - name: Push docker image
         run: | 
